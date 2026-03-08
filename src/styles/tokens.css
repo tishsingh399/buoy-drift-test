@@ -1,0 +1,87 @@
+/* ============================================
+   DESIGN TOKENS — Source of Truth
+   Three-layer architecture: Primitive → Semantic → Component
+   ============================================ */
+
+:root {
+  /* ---- Primitive Tokens ---- */
+  --primitive-blue-500: #2563eb;
+  --primitive-blue-600: #1d4ed8;
+  --primitive-blue-700: #1e40af;
+  --primitive-red-600: #dc2626;
+  --primitive-red-800: #991b1b;
+  --primitive-orange-600: #d97706;
+  --primitive-orange-700: #c2410c;
+  --primitive-green-600: #16a34a;
+  --primitive-gray-50: #fafaf8;
+  --primitive-gray-100: #f3f3f0;
+  --primitive-gray-200: #e4e4e0;
+  --primitive-gray-400: #9b9b96;
+  --primitive-gray-500: #6b6b66;
+  --primitive-gray-900: #1a1a18;
+  --primitive-white: #ffffff;
+
+  /* ---- Semantic Tokens ---- */
+  --color-surface: var(--primitive-gray-50);
+  --color-surface-elevated: var(--primitive-white);
+  --color-surface-subtle: var(--primitive-gray-100);
+
+  --color-border: var(--primitive-gray-200);
+  --color-border-subtle: #ececea;
+  --color-border-strong: #c8c8c4;
+
+  --color-text-primary: var(--primitive-gray-900);
+  --color-text-secondary: var(--primitive-gray-500);
+  --color-text-tertiary: var(--primitive-gray-400);
+
+  --color-accent: var(--primitive-blue-500);
+  --color-accent-hover: var(--primitive-blue-600);
+
+  --color-success: var(--primitive-green-600);
+  --color-success-subtle: #f0fdf4;
+  --color-warning: var(--primitive-orange-600);
+  --color-warning-subtle: #fffbeb;
+  --color-error: var(--primitive-red-600);
+  --color-error-subtle: #fef2f2;
+
+  /* PAM Risk Semantic */
+  --color-risk-critical: var(--primitive-red-800);
+  --color-risk-critical-subtle: #fef2f2;
+  --color-risk-high: var(--primitive-orange-700);
+  --color-risk-high-subtle: #fff7ed;
+  --color-risk-medium: var(--primitive-orange-600);
+  --color-risk-medium-subtle: #fffbeb;
+  --color-risk-low: #15803d;
+  --color-risk-low-subtle: #f0fdf4;
+
+  /* ---- Spacing ---- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+
+  /* ---- Typography ---- */
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'IBM Plex Mono', monospace;
+  --text-body: 0.875rem;
+  --text-body-sm: 0.8125rem;
+  --text-label: 0.75rem;
+  --text-h2: 1.375rem;
+  --text-h3: 1.125rem;
+
+  /* ---- Radii ---- */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+
+  /* ---- Shadows ---- */
+  --shadow-card: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-modal: 0 4px 16px rgba(0,0,0,0.08);
+
+  /* ---- Duration ---- */
+  --duration-fast: 120ms;
+  --duration-normal: 200ms;
+}
